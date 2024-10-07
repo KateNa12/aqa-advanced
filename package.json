@@ -1,0 +1,24 @@
+{
+  "name": "aqa-advanced-1",
+  "version": "1.0.0",
+  "description": "my hw 3",
+  "main": "index.js",
+  "type":"module",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+       
+    "repository": {
+    "type": "git",
+    "url": "aqa-advanced"
+  },
+  "author": "Kateryna Naimark",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.3.0"
+  }
+}
