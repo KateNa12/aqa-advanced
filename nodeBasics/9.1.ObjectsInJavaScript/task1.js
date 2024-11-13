@@ -13,4 +13,4 @@ student.lastName = 'Naimark';
 student.age = 35;
 student.courses = ['Automation JS', 'QA Pro', 'QA manual', 'Automation Java'];
 
-console.log(student)
+console.log(student);

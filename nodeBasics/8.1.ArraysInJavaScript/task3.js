@@ -12,8 +12,8 @@ const array = [10, 20, 30, 40, 50];
 
 const sumArray = array.reduce((accumulator, currentValue) => {
 
-    return accumulator + currentValue;
+  return accumulator + currentValue;
   
-  },0);
+},0);
   
-  console.log(sumArray);
+console.log(sumArray);

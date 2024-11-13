@@ -7,17 +7,17 @@
 
 
 const handleNum = (num, numberIsEven, numberIsOdd) => {
-    if (num % 2 == 0) {
-        numberIsEven(); 
-    } else {
-        numberIsOdd();
-    }
-}
+  if (num % 2 == 0) {
+    numberIsEven(); 
+  } else {
+    numberIsOdd();
+  }
+};
 let handleEven = () => {
-    console.log(`number is even`)
-}
+  console.log('number is even');
+};
 let handleOdd = () => {
-    console.log(`number is odd`)
-}
+  console.log('number is odd');
+};
   
-    handleNum(5, handleEven, handleOdd);
+handleNum(5, handleEven, handleOdd);

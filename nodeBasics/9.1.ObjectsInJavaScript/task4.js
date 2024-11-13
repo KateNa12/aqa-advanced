@@ -8,11 +8,11 @@
 
 
 let person = {
-    firstName: 'Kateryna',
-    lastName: 'Naimark',
-    age: 35
-}
+  firstName: 'Kateryna',
+  lastName: 'Naimark',
+  age: 35
+};
 
 person.email = 'kateryna.naimark@gmail.com';
 delete person.age;
-console.log(person)
+console.log(person);

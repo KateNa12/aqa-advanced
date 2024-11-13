@@ -4,7 +4,7 @@
 let circleRadius = 10;
 let pi = Math.PI;
 function circleArea(circleRadius, pi) {
-    return (pi * circleRadius * circleRadius).toFixed(2);
+  return (pi * circleRadius * circleRadius).toFixed(2);
 }
 
-console.log(circleArea(circleRadius, pi))
+console.log(circleArea(circleRadius, pi));

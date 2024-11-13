@@ -3,4 +3,4 @@
 let personAge = 35;
 let isAdult = personAge >= 18;
 
-console.log(personAge, isAdult)
+console.log(personAge, isAdult);

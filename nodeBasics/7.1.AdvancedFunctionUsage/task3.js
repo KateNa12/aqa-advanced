@@ -11,40 +11,40 @@
 
 
 function divide (numerator, denominator) {
-    if (denominator === 0 ) {
-        throw new Error("Ділення на нуль недопустиме!");
-    } else if (numerator === undefined || denominator === undefined){
-        throw new Error(" Параметр не визначено!")
-    } else if (isNaN(numerator) || isNaN(denominator)){
-        throw new Error("Параметр не є числом!")
-    }
-    return numerator/denominator;
-}   
-    try {
-    const result = divide(10, 2);
-    console.log(result);  
-}  catch (error) {
-    console.error("Сталася помилка:", error.message);
+  if (denominator === 0 ) {
+    throw new Error('Ділення на нуль недопустиме!');
+  } else if (numerator === undefined || denominator === undefined){
+    throw new Error(' Параметр не визначено!');
+  } else if (isNaN(numerator) || isNaN(denominator)){
+    throw new Error('Параметр не є числом!');
   }
-    try {
-      const result = divide(10, 0);
-      console.log(result);  
+  return numerator/denominator;
+}   
+try {
+  const result = divide(10, 2);
+  console.log(result);  
+}  catch (error) {
+  console.error('Сталася помилка:', error.message);
+}
+try {
+  const result = divide(10, 0);
+  console.log(result);  
 } catch (error) {
-      console.error("Сталася помилка:", error.message);
-    }
-    try {
-        const result = divide("Not a number", 2);
-      console.log(result);  
+  console.error('Сталася помилка:', error.message);
+}
+try {
+  const result = divide('Not a number', 2);
+  console.log(result);  
 } catch (error) {
-      console.error("Сталася помилка:", error.message);
-    }
-    try {
-        const result = divide (2);
-        console.log(result);  
-    }  catch (error) {
-        console.error("Сталася помилка:", error.message);
-      }
-    finally {
-         console.log("Робота завершена")
+  console.error('Сталася помилка:', error.message);
+}
+try {
+  const result = divide (2);
+  console.log(result);  
+}  catch (error) {
+  console.error('Сталася помилка:', error.message);
+}
+finally {
+  console.log('Робота завершена');
 }
 

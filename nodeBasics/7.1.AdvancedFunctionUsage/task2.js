@@ -7,11 +7,11 @@
 
 
 function recursionFunction(num) {
-    if (num <= 0) {
-        return;
-    }
-    console.log(num);
-    recursionFunction(num - 1);
+  if (num <= 0) {
+    return;
+  }
+  console.log(num);
+  recursionFunction(num - 1);
 }
     
 recursionFunction(5);

@@ -10,17 +10,17 @@
 // Виведіть об'єкт car3 в консоль.
 
 let car1 = {
-    brand: 'Peugeut',
-    model: '208',
-    year: 2016,
-    };
+  brand: 'Peugeut',
+  model: '208',
+  year: 2016,
+};
 
 let car2 = {
-    brand: 'Honda',
-    model: 'CRV',
-    owner: "Mister X",
+  brand: 'Honda',
+  model: 'CRV',
+  owner: 'Mister X',
 };
 
 let car3 = {...car1, ...car2};
 
-console.log(car3)
+console.log(car3);
